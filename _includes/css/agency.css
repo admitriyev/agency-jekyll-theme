@@ -275,6 +275,10 @@ header {
     -o-background-size: cover;
 }
 
+header.header-blog {
+    background-image: url(../img/header-blog.jpg);
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
