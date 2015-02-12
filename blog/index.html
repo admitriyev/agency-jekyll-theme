@@ -2,25 +2,19 @@
 layout: blog
 ---
 
-<div class="home">
+<div class="container">
 
-  <section>
-    <div class="container">
-
-      {% for post in site.posts %}
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-            <h3 class="section-subheading text-muted">
-              <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-            </h3>
-          </div>
-        </div>
-      {% endfor %}
-
+  {% for post in site.posts %}
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <h3 class="section-subheading text-muted">
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </h3>
+      </div>
     </div>
-  </section>
+  {% endfor %}
 
 </div>
