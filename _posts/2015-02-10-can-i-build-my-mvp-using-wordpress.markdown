@@ -4,9 +4,8 @@ subtitle: Startup questions
 layout: blog
 modal-id: 1
 date: 2015-02-10
+img: wordpress-businessman-xs.jpg
 ---
-
-### Can I build my MVP using Wordpress?
 
 I’ve heard this question several times. What if I just build my startup MVP using Wordpress? It's a simple question, and a tempting idea. As a startup founder, you have to move as fast as possible. If a paper sketch helps you move forward, you should do it. If you can build a click-through mockup in Balsamiq or Keynote, show to potential customers, and sign a deal, that awesome. 
 
