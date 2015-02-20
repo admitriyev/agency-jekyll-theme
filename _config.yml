@@ -11,6 +11,7 @@ color:
   primary: fed136
   secondary: fec503  
   secondary-dark: 333
+  links: CD8C00
 
 # Team names, titles and social links
 people:
